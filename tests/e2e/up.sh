@@ -7,7 +7,7 @@
 # The versions are those GeoServer ConfigOps tests on (its tests/e2e/up.sh), the README's "Tested on".
 set -euo pipefail
 cd "$(dirname "$0")"
-export GEOSERVER_TAG=3.0.2.1  # GeoServer Cloud
+export GEOSERVER_TAG=3.0.2.2  # GeoServer Cloud
 export POSTGIS_IMAGE=postgis/postgis:18-3.7
 export RABBITMQ_IMAGE=rabbitmq:4.4-alpine
 export STANDARD_GEOSERVER_VERSION=3.0.2  # the newest standard GeoServer
